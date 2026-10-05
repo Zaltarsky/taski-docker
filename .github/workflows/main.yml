@@ -9,6 +9,9 @@ on:
     # Отслеживаем изменения только в ветке main
     branches:
       - main
+
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
 # Перечень задач
 jobs:
   # Единственная задача — склонировать код 
